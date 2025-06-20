@@ -1,0 +1,114 @@
+/* media qurey start section  */
+/* media qurey 1170px  */
+@media screen and (max-width:1199px){
+
+.parallax:not(.parallax-main){
+    background-size: 50% !important;
+}
+.main-wrapper.black-card{
+    width: 100% !important;
+}
+.process-content{
+width: 100% !important;
+}
+
+
+
+
+
+}
+/* media qurey 991px  */
+@media screen and (max-width:991px){
+.banner-wrapper{
+    margin-top: 4rem !important;
+    padding: 4rem 2rem !important;
+    min-height: 730px !important;
+
+    
+}
+
+
+.main-wrapper.black-card{
+    left: -226px !important;
+}
+.main-wrapper.black-card.right{
+    right: -226px !important;
+}
+
+.parallax-main{
+    background-size: cover;
+}
+
+
+
+}
+
+/* @media screen and (max-width:767px){ */
+
+@media screen and (max-width:767px){
+
+body,
+html{
+    font-size: 8px !important;
+}
+.banner-wrapper{
+    min-height: 550px !important;
+}
+.parallax:not(.parallax-main){
+    background-size: cover !important;
+}
+.parallax-1{
+    background-size: cover !important;
+}
+
+.black-card{
+    left: 5% !important;
+        width: 90% !important;
+
+}
+.black-card.right{
+    right: 5%  !important;
+    width: 90% !important;
+}
+
+
+}
+/* @media screen and (max-width:590px){ */
+
+@media screen and (max-width:590px){
+
+body,
+html{
+    font-size: 7px !important;
+}
+.parallax .img-2,
+.parallax .img-3,
+.parallax .img-4,
+.parallax .img-5{
+
+    height: 420px !important;
+}
+.main-wrapper{
+    margin-top: 35vh !important;
+}
+
+
+
+
+
+
+}
+@media screen and (max-width:390px){
+h1{
+    font-size: 27px;
+    
+}
+h2{
+    font-size: 25px;
+}
+
+
+
+
+
+}
