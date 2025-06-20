@@ -607,3 +607,72 @@ text-decoration: none;
 .whatsapp-icon .whatsapp img{
     width: 5.5rem !important;
 }
+.abilities-wrapper ul{
+    padding: 0;
+}
+.abilities-wrapper h3{
+    color: var(--BLACK-color) !important;
+}
+.abilities-wrapper ul li p{
+    color: #000 !important;
+}
+.team-img{
+width: 15rem !important;
+height: 15rem !important;
+margin: 0 auto !important;
+border-radius: 50% !important;
+border: 0.5rem solid rgb(8, 192, 8) !important;
+}
+.team-img img{
+    border-radius: 50%;
+}
+.team-detail h5{
+    font-weight: 800 !important;
+    color: var(--BLACK-color) !important;
+    margin-bottom: 0 !important;
+    padding-top: 1.5rem !important;
+}
+.team-detail p{
+    /* font-weight: 800 !important; */
+    color: var(--BLACK-color) !important;
+    margin: 0 !important;
+    /* padding-top: 1.5rem !important; */
+}
+.contact .get-in-touch .card{
+    background-color: white !important;
+    min-height: 36rem !important;
+    padding: 3rem !important;
+    border-radius: 2rem !important;
+    box-shadow: var(--box-shadow) !important;
+    text-align: center !important;
+}
+.contact .card i{
+    font-size: 8rem !important;
+    margin-bottom: 3rem !important;
+}
+.contact .card h4{
+   
+    font-weight: 800 !important;
+}
+.contact .card p{
+   color: var(--BLACK-color) !important;
+}
+.contact .card p:last-child{
+font-family: var(--secondary-font) !important;
+font-weight: 700 !important;
+}
+.form-section{
+    padding: 10rem !important;
+    background-color: #000 !important;
+    box-shadow: var(--box-shadow) !important;
+    border-radius: 2rem !important;
+}
+.form-control{
+    box-shadow: none !important;
+    border-color: var(--light-color) !important;
+}
+.form-control{
+height: 4rem !important;    border:0.1rem solid var(--light-color) !important;
+font-size: 1.5rem !important;
+
+}

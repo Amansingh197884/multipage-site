@@ -11,8 +11,12 @@
 .process-content{
 width: 100% !important;
 }
-
-
+.form-section{
+    padding: 4rem 1rem !important;
+}
+.content .card{
+    padding: 2rem 1rem !important;
+}
 
 
 
@@ -37,6 +41,11 @@ width: 100% !important;
 
 .parallax-main{
     background-size: cover;
+}
+
+
+.content .card{
+    min-height: 350px !important;
 }
 
 
@@ -72,6 +81,11 @@ html{
 }
 
 
+.content .card{
+    min-height: 310px !important;
+}
+
+
 }
 /* @media screen and (max-width:590px){ */
 
@@ -93,6 +107,9 @@ html{
 }
 
 
+.content .card{
+    min-height: 254px !important;
+}
 
 
 
