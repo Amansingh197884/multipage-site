@@ -323,7 +323,7 @@ list .card-item .card-image {
 
 .banner-wrapper{
     /* padding-top: 100px; */
-    padding: 8rem 0;
+    padding: 5rem 0;
 }
 
 :root{
@@ -499,10 +499,11 @@ a:hover,
     padding: 10px 30px !important;
     border-radius: 3px !important;
     /* border: 1px solid #0e0a0a; */
-      background: linear-gradient(149deg, #161d16 15%, #ff0832 100%);
-color: #fff !important;
+      /* background: linear-gradient(149deg, #161d16 15%, #ff0832 100%); */
+color: #ede9e9 !important;
         font-family: "Inter", serif !important;
         font-size: large !important;
+        background-color: red !important;
 
 }
 .main-btn:hover{
@@ -525,7 +526,7 @@ color: #fff !important;
 }
 
 .nav-link {
-    font-weight:bolder;
+    /* font-weight:bolder; */
     position: relative;
     color: white;
         font-family: "Inter", serif;
@@ -593,7 +594,7 @@ color: #fff !important;
  
     font-family: "Inter", serif;
     /* font-size: 20px; */
-    font-weight: 600;
+    /* font-weight: 600; */
     background: linear-gradient(149deg, #161d16 15%, #ff0832 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -671,7 +672,8 @@ color: #fff !important;
     padding: 10px 20px !important;
     border-radius: 3px;
     /* border: 1px solid #0e0a0a; */
-      background: linear-gradient(149deg, #161d16 15%, #ff0832 100%);
+      /* background: linear-gradient(149deg, #161d16 15%, #ff0832 100%); */
+      background-color: red;
 color: #fff !important;
         font-family: "Inter", serif !important;
         font-size: 16px !important;
@@ -690,7 +692,7 @@ color: #fff !important;
 .sec-title h1::after{
     position: absolute;
     content: '';
-      background: linear-gradient(149deg, #161d16 15%, #ff0832 100%);
+      /* background: linear-gradient(149deg, #161d16 15%, #ff0832 100%); */
       width: 50%;
       height: 50%;
       bottom: 0;
@@ -723,15 +725,20 @@ color: #fff !important;
     background: transparent !important;
     color: #161d16 15%, #ff0832 100% !important;
 }
+.img-hero{
+    mix-blend-mode: darken;
+}
 .banner-wrapper{
     /* margin-top: 2rem; */
-    background-image: url(image/images/banner/banner.webp);
+    /* background-image: url(https://cdn.vectorstock.com/i/1000v/85/26/black-gold-real-estate-logo-vector-46378526.jpg); */
+    background-color: rgb(246, 248, 247);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: auto;
+    /* height: auto; */
     padding-bottom: 5rem;
+    height: 100vh;
 }
 .parallax{
     position: relative !important;
@@ -773,19 +780,19 @@ color: #fff !important;
     height: 100%;
 }
 .parallax.img-2{
-    background-image: url(image/images/Services/web-designing.webp) !important;
+    background-image: url(https://i.pinimg.com/736x/97/be/bf/97bebfbbeb9ba1d7f96493d6556648b1.jpg) !important;
     height: 608px;
 }
 .parallax.img-3{
-    background-image: url(image/images/Services/branding.webp) !important;
+    background-image: url(https://i.pinimg.com/736x/e7/a7/c7/e7a7c71c2e27c8d48a94998ce2f3838e.jpg) !important;
     height: 608px;
 }
 .parallax .img-4{
-    background-image: url(image/images/Services/advertising.webp) !important;
+    background-image: url(https://i.pinimg.com/736x/6e/96/ff/6e96ff797d03b65401bef58dd27f1ad7.jpg) !important;
     height: 608px;
 }
 .parallax.img-5{
-    background-image: url(image/images/Services/seo.webp) !important;
+    background-image: url(https://i.pinimg.com/736x/5c/b2/12/5cb212bb9efc0ca159671b0bc1af5549.jpg) !important;
     height: 608px;
 }
 .main-wrapper{
