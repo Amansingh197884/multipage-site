@@ -32,7 +32,8 @@ new Swiper('.card-wrapper', {
   
 
 
-// alert("Welcome to this Webpage")
+
+
 
 
   
