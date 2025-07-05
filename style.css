@@ -811,9 +811,12 @@ html {
     background-size: cover;
     height: 100%;
     display: flex;
-    padding: 80px;
+    /* padding: 80px; */
     background-position: center;
     justify-content: center;
+    padding-top: 80px;
+        padding-bottom: 80px;
+
     align-items: center;
 
 }
@@ -824,7 +827,7 @@ html {
     border-radius: 10px;
     box-shadow: 2px 1px 10px;
     /* flex-direction: column; */
-    max-width: 500px;
+    max-width: 700px;
     padding: 20px;
     width: 80%;
     margin: 0 auto;
@@ -833,7 +836,7 @@ html {
 
 }
 .booking-form:hover{
-    border: 2px solid rgb(239, 84, 110);
+    /* border: 2px solid rgb(239, 84, 110); */
 }
 
 
@@ -1933,6 +1936,7 @@ gap: 30px 15px !important;
     align-items: center !important;
     gap: 10px !important;
     box-shadow: var(--box-shadow);
+    text-decoration: none;
 }
 
 .features-card:is(:hover, :focus){
