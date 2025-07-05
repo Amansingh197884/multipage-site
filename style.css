@@ -832,6 +832,9 @@ html {
 
 
 }
+.booking-form:hover{
+    border: 2px solid rgb(239, 84, 110);
+}
 
 
 
@@ -1914,6 +1917,10 @@ gap: 30px 15px !important;
 .feature-listtt  li{
     width: calc(20% - 10px) !important;
 }
+
+@media screen and(min-width:800px){
+
+}
 .features-card{
     position: relative !important;
     padding: 40px 15px !important;
@@ -1971,10 +1978,25 @@ gap: 30px 15px !important;
 }
 
 
-@media  screen and(max-width:1492px) {
     .feature-listtt li{
     width: calc(33% - 13.33px) !important;
      
 }
+.feature-listtt li {
+    width: 25%;
+    box-sizing: border-box;
+    padding-left: 7px;
+    padding-right: 7px;
+    /* padding: 20px; */
 }
-    /* card section end  */
+@media screen and (max-width:800px){
+    .feature-listtt li {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+}
+.alnf li{
+    padding: 20px;
+}
