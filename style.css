@@ -127,7 +127,7 @@ html,
 body {
   font-size: 10px !important;
   font-weight: 400 !important;
-  font-family: var(--primary-font) !important;
+  /* font-family: var(--primary-font) !important; */
   overflow-x: hidden !important;
   scroll-behavior: smooth !important;
   line-height: 1.5 !important;
@@ -135,24 +135,40 @@ body {
 h1{
     font-size: 55px !important;
     color: var(--BLACK-color) !important;
-    font-weight: 800 !important;
-    font-family: var(--secondary-font) !important;
+    /* font-weight: 800 !important; */
+    /* font-family: var(--secondary-font) !important; */
     display: inline-block !important;
     text-transform: uppercase !important;
     line-height: 1.4 !important;
     margin-bottom: 2rem !important;
+    font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 792;
+  font-style: normal;
 }
 h2{
     font-size: 25px !important;
     color: var(--white-color) !important;
     font-weight: 700 !important;
-    font-family: var(--secondary-font) !important;
+    /* font-family: var(--secondary-font) !important; */
+    
     display: inline-block !important;
     text-transform: uppercase;
     /* line-height: 1.4 !important; */
     /* margin-bottom: 2rem !important; */
-}
+    
 
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 792;
+  font-style: normal;
+}
+a{
+    font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 792;
+  font-style: normal;
+}
 
 h2 span{
     color: var(--primary-color) !important;
@@ -187,13 +203,15 @@ h5{
     text-transform: uppercase !important;
 }
 p{
-    font-size: 1.6rem !important;
-    font-weight: 500 !important;
-    line-height: 1.4 !important;
-    /* letter-spacing: 1px; */
-    margin-top: 1rem !important;
-    color: var(--white-color) !important;
-    font-family: sans-serif !important;
+    font-size: 18px;
+    /* margin-top: 1rem !important; */
+  
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #595b5d !important;
+  /* 65676b */
 
 }
 a,
@@ -563,11 +581,15 @@ z-index: 1 !important;
 .testimonial-wrapper h2{
     color: white !important;
 }
-.testimonial-wrapper .card i{
+.testimonial-wrapper .cardn i{
 color: var(--yellow) !important;
 font-size: 1.4rem !important;
 }
-.testimonial-wrapper .card{
+
+.card{
+    outline: none;
+}
+.testimonial-wrapper .cardn{
     border: none !important;
     background-color: white !important;
     box-shadow: var(--box-shadow) !important;
@@ -578,15 +600,26 @@ font-size: 1.4rem !important;
 .testimonial-wrapper{
     background-color: #000 !important;
 }
-.testimonial-wrapper .card p{
+.testimonial-wrapper .cardn p{
     color: var(--BLACK-color) !important;
 }
-.testimonial-wrapper .card h5{
+.testimonial-wrapper .cardn h5{
     color: var(--BLACK-color) !important;
     font-weight: 700;
 }
 .testimonial-wrapper .carousel-indicators{
-    margin-bottom: 3rem;
+    margin-bottom: 10rem;
+}
+
+
+@media screen and (max-width:700px) {
+   .testimonial-wrapper h2{
+    color: white !important;
+  padding-top: 20px;
+    padding-bottom: 20px;
+      
+
+}
 }
 .testimonial-wrapper .carousel-indicators button{
     width: 1rem;
@@ -628,13 +661,36 @@ text-decoration: none;
 }
 .whatsapp-icon{
     position: relative !important;
+    cursor: pointer;
+}
+.whatsapp{
+    background-color: red;
+    padding: 15px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 500;
+/* 
+    line-height: 45px; */
+    color: #fff;
+    /* border-radius: 25px; */
+    /* display: none; */
+    /* text-align: center;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 0;
+    opacity: 0;
+    cursor: pointer;
+    transition: var(--transition);
+    border: 0; */
+
 }
 .whatsapp-icon .whatsapp{
     position: fixed !important;
-    width: 6rem !important;
+    /* width: rem !important; */
     z-index: 1 !important;
     bottom: 1.7rem !important;
-    right: 0.5rem !important;
+    right: 1.5rem !important;
 }
 .whatsapp-icon .whatsapp img{
     width: 5.5rem !important;
@@ -647,6 +703,9 @@ text-decoration: none;
 }
 .abilities-wrapper ul li p{
     color: #000 !important;
+}
+.team-wrapper{
+    background-color: #073333;
 }
 .team-img{
 width: 15rem !important;
@@ -2183,4 +2242,9 @@ list .card-item .card-image {
 .bodyyy{
     background-color: #19191c;
 
+}
+.vibh img{
+    /* width: 500px; */
+    width: 100%;
+    height: 300px;
 }
