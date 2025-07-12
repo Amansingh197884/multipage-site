@@ -619,8 +619,10 @@ font-size: 1.4rem !important;
   padding-top: 20px;
     padding-bottom: 20px;}
 
-      .testimonial-wrapper .carousel-indicators{
-    margin-bottom: 6rem;
+     .carousel-indicators{
+  
+    /* bottom: -31px; */
+   
 
 
 }
