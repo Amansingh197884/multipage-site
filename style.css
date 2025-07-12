@@ -727,7 +727,7 @@ border: 0.5rem solid rgb(8, 192, 8) !important;
     margin: 0 !important;
     /* padding-top: 1.5rem !important; */
 }
-.contact .get-in-touch .card{
+.contact .get-in-touch .cardn{
     background-color: white !important;
     min-height: 36rem !important;
     padding: 3rem !important;
@@ -735,18 +735,18 @@ border: 0.5rem solid rgb(8, 192, 8) !important;
     box-shadow: var(--box-shadow) !important;
     text-align: center !important;
 }
-.contact .card i{
+.contact .cardn i{
     font-size: 8rem !important;
     margin-bottom: 3rem !important;
 }
-.contact .card h4{
+.contact .cardn h4{
    
     font-weight: 800 !important;
 }
-.contact .card p{
+.contact .cardn p{
    color: var(--BLACK-color) !important;
 }
-.contact .card p:last-child{
+.contact .cardn p:last-child{
 font-family: var(--secondary-font) !important;
 font-weight: 700 !important;
 }
