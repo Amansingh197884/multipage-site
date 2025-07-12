@@ -612,15 +612,20 @@ font-size: 1.4rem !important;
 }
 
 
+
 @media screen and (max-width:700px) {
    .testimonial-wrapper h2{
     color: white !important;
   padding-top: 20px;
-    padding-bottom: 20px;
-      
+    padding-bottom: 20px;}
+
+      .testimonial-wrapper .carousel-indicators{
+    margin-bottom: 6rem;
+
 
 }
 }
+
 .testimonial-wrapper .carousel-indicators button{
     width: 1rem;
     height: 1rem;border-radius: 50%;
@@ -2141,3 +2146,27 @@ color: #ede9e9 !important;
     content: none!important;
 }
 
+@media screen and (max-width:700px){
+    .ayush ul{
+        align-items: start !important;
+        padding: 15px;
+    }
+    .ayush li{
+        gap: 20px;
+    }
+    .offcanvas-header{
+        /* padding: 20px !important; */
+        font-size: 15px;
+    }
+   
+}
+.project-img img{
+    height: 500px;
+    width: 100%;
+}
+
+@media screen and (max-width:700px){
+.nann ul{
+    align-items: start;
+}
+}
