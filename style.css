@@ -178,6 +178,23 @@ h2{
   font-weight: 792;
   font-style: normal;
 }
+@media screen and (max-width:700px){
+    .title-h2{
+     font-size: 30px !important;
+    font-weight: 700 !important;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block !important;
+    text-transform: uppercase;
+   
+      color: #353536 !important;
+
+
+  /* font-family: "EB Garamond", serif; */
+  font-optical-sizing: auto;
+  font-weight: 792;
+  font-style: normal;
+}
+}
 a{
    font-size: 18px;
     margin-top: 1rem !important;
@@ -594,6 +611,12 @@ background-color: #000 !important;
 padding: 2.5rem !important;
 text-align: left !important;
 z-index: 1 !important;
+}
+@media screen and(max-width:700px){
+    .black-card{
+        top: 10% !important;
+
+    }
 }
 .right{
     right: -400px !important;
@@ -2119,6 +2142,11 @@ color: #ede9e9 !important;
 .project-img img{
     height: 500px;
     width: 100%;
+}
+@media screen and (max-width:700px){
+    .project-img img{
+ padding: 5px;
+}
 }
 
 @media screen and (max-width:700px){
