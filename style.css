@@ -697,7 +697,7 @@ font-size: 1.4rem !important;
     font-weight: 700;
 }
 .testimonial-wrapper .carousel-indicators{
-    margin-bottom: 10rem;
+    margin-bottom: 6rem;
 }
 
 
@@ -710,7 +710,7 @@ font-size: 1.4rem !important;
 
       .testimonial-wrapper .carousel-indicators{
     /* margin-bottom: 6rem; */
-        margin-bottom: 0rem;
+        /* margin-bottom: 0rem; */
 
 
 
@@ -794,12 +794,52 @@ text-decoration: none;
 .team-wrapper{
     background-color: #073333;
 }
+
+.card-hover:hover{
+    background-color: #bf0aec !important;
+    cursor: pointer;
+    transition: 2s;
+}
+.card-hover:hover p{
+    color: #fff !important;
+}
+.card-hover:hover .do-img{
+    background-color: #fff !important;
+}
+.card-hover:hover h5{
+    color: #a39f9f !important;
+}
+.card-hover{
+     background:    rgb(199, 241, 30);
+    padding: 55px;
+    border-radius: 15px;
+    /* box-shadow: 0 0 10px #ddd; */
+    /* position: relative; */
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    border: solid 2px #eee;
+}
+.contact .get-in-touch .cardn:hover {
+    background-color: rgb(242, 245, 222) !important;
+  
+}
+@media screen and (max-width:600px){
+    .card-hover{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+.card-ti{
+    
+}
 .team-img{
 width: 15rem !important;
 height: 15rem !important;
 margin: 0 auto !important;
+top: -10% !important;
 border-radius: 50% !important;
-border: 0.5rem solid rgb(8, 192, 8) !important;
+background-color: #f2f2f2 !important;
+border: 0.5rem solid rgb(230, 32, 32) !important;
 }
 .team-img img{
     border-radius: 50%;
@@ -1836,7 +1876,7 @@ cursor: pointer;
 
 .carousel{
     width: 100%;
-    height: 73vh;
+    /* height: 73vh; */
     overflow: hidden;
     position: relative;
     /* margin-bottom: 50px; */
@@ -2236,6 +2276,16 @@ background-color: rgba(6, 6, 198, 0.169);
 }
 .card-hover:hover h5{
     color: #fff !important;
+}
+.card-hover{
+     background: azure;
+    padding: 55px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ddd;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    border: solid 1px #eee;
 }
 .contact .get-in-touch .cardn:hover {
     background-color: rgb(242, 245, 222) !important;
