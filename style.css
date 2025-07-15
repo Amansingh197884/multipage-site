@@ -296,6 +296,17 @@ color: #ede9e9 !important;
         background-color: red !important;
 
 }
+@media screen and (max-width:600px){
+    .main-btn{
+        margin-top: 10px;
+    }
+    .h2-text h2{
+        margin-bottom: 10px;
+    }
+      .h2-text p{
+        margin-top: 5px;
+    }
+}
 .main-btnn{
       text-decoration: none;
     padding: 7px 30px !important;
