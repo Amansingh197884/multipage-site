@@ -617,7 +617,7 @@ color: #fff !important;
 
 .black-card{
 position: absolute !important;
-top: 7% !important;
+top: 20% ;
 left: -400px !important;
 width: calc(100% - 20%) !important;
 box-shadow: var(--box-shadow) !important;
@@ -626,9 +626,9 @@ padding: 2.5rem !important;
 text-align: left !important;
 z-index: 1 !important;
 }
-@media screen and (min-width:800px){
+@media screen and(max-width:800px){
     .black-card{
-        top: 20% ;
+        top: 12% !important;
 
     }
 }
