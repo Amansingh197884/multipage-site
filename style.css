@@ -543,14 +543,14 @@ color: #fff !important;
 .banner-wrapper{
     /* margin-top: 2rem; */
     /* background-image: url(https://cdn.vectorstock.com/i/1000v/85/26/black-gold-real-estate-logo-vector-46378526.jpg); */
-    background-color: rgb(246, 248, 247);
+    /* background-color: rgb(246, 248, 247);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 100%; */
     /* height: auto; */
-    padding-bottom: 5rem;
-    height: 100vh;
+    /* padding-bottom: 5rem;
+    height: 100vh; */
 }
 .parallax{
     position: relative !important;
@@ -612,6 +612,9 @@ color: #fff !important;
     background-color: white;
     width: 100%;
 }
+
+
+
 .black-card{
 position: absolute !important;
 top: 20% !important;
